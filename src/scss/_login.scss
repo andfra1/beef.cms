@@ -1,0 +1,36 @@
+.loginScreen__wrapper {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 10px;
+  border: 2px solid $color1;
+  background-color: $color1opacity;
+}
+
+label,
+input {
+  font-size: 1.5em;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+input {
+  border: 2px solid $color1;
+  padding: 5px;
+  margin: 15px auto;
+}
+
+.svg--logo {
+  display: block;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.login__button {
+  padding: 5px 10px;
+  background-color: #fff;
+}
